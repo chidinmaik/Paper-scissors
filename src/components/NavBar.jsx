@@ -10,14 +10,7 @@ const Navbar = ({ playerScore, computerScore, isMuted, toggleMute, resetGame }) 
         </h1>
       </div>
       <div className="flex items-center gap-6">
-        <div className="flex gap-4 text-lg font-semibold">
-          <span className="bg-gradient-to-r from-indigo-500 to-purple-500 px-3 py-1 rounded-full shadow-inner">
-            You: {playerScore}
-          </span>
-          <span className="bg-gradient-to-r from-indigo-500 to-purple-500 px-3 py-1 rounded-full shadow-inner">
-            CPU: {computerScore}
-          </span>
-        </div>
+        
         <button
           onClick={toggleMute}
           className="bg-white/20 hover:bg-white/30 text-white py-1 px-4 rounded-full transition-all shadow-md backdrop-blur-sm border border-white/30"
